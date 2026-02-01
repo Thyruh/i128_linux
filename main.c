@@ -6,7 +6,7 @@
 typedef int64_t i64;
 typedef uint64_t u64;
 
-#define BY 1000000000ULL
+#define BY 100000000000 // 100 000 000 000+ here. For some reason a lesser number breaks everything.
 
 typedef struct {
     u64 node;
