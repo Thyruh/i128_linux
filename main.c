@@ -12,7 +12,7 @@ typedef struct {
     u64 node;
     u64 next_val;
     char* sum;
-} b16;
+} b16; // b for bytes - always thought that using bits for size is pretty pointless
 
 int u64_to_string(u64 num, char* str) {
     int i = 0;
